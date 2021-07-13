@@ -9,7 +9,7 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-#openClash_url='https://github.com/vernesong/OpenClash.git'       # OpenClash包地址
+openClash_url='https://github.com/vernesong/OpenClash.git'       # OpenClash包地址
 #lienol_url='https://github.com/Lienol/openwrt-package.git'       # Lienol 包地址
 
 
