@@ -15,9 +15,9 @@
 
 git clone https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash
 
-git clone https://github.com/lisaac/luci-app-dockerman
-
-git clone https://github.com/lisaac/luci-lib-docker
+rm -rf ../lean/luci-app-docker
+git clone --depth=1 https://github.com/lisaac/luci-app-dockerman
+git clone --depth=1 https://github.com/lisaac/luci-lib-docker
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
